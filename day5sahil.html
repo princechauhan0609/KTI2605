@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juming balls</title>
+    <style type="text/css">
+        body{
+          
+           background: rgb(12, 58, 76);
+        }
+        
+        .ball{
+            height: 50px;
+            width: 50px;
+            background: red;
+            position: absolute;
+            top: 85vh;
+            border-radius: 50%;
+            animation: jump 10s linear infinite;
+
+        }
+        @keyframes jump{
+            20%{
+                top: 5vh
+            }
+           
+        }
+        
+        .b1{
+            left: 20px;
+            background: radial-gradient(red,blue);
+            animation-delay: 1s;
+        }
+         .b2{
+            left: 80px;
+            background: radial-gradient(rgba(0, 123, 255, 0.496),rgb(255, 0, 149));
+            animation-delay: 2s;
+        }
+         .b3{
+            left: 140px;
+            background: radial-gradient(rgba(217, 255, 0, 0.1),rgba(255, 0, 255, 0.21));
+            animation-delay: 3s;
+        }
+         .b4{
+            left: 200px;
+            background: radial-gradient(blue,green);
+            animation-delay: 4s;
+        }
+         .b5{
+            left: 260px;
+            background: radial-gradient(green,rgb(255, 123, 0));
+            animation-delay: 5s;
+        }
+        
+    </style>
+     
+</head>
+<body>
+    <div class="ball b1"></div>
+    <div class="ball b2"></div>
+    <div class="ball b3"></div>
+    <div class="ball b4"></div>
+    <div class="ball b5"></div>
+</body>
+</html>
